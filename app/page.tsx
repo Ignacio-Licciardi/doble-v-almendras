@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { MessageCircle, Heart, Leaf, Zap, Sparkles } from "lucide-react"
 
 export default function Home() {
-  const whatsappNumber = "1234567890" // Reemplaza con tu número de WhatsApp
+  const whatsappNumber = "1234567890" // Reemplaza con número de WhatsApp
   const whatsappMessage = "¡Hola! Me interesa conocer más sobre sus productos de almendras y aceite de almendras."
 
   const handleWhatsAppClick = () => {
