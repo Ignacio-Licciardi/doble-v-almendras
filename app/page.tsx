@@ -27,6 +27,7 @@ export default function Home() {
                 width={40}
                 height={40}
                 className="rounded-full sm:w-[50px] sm:h-[50px]"
+                sizes="(max-width: 640px) 40px, 50px"
               />
               <span className="text-lg sm:text-xl font-bold text-amber-900 truncate">Doble V Almendras</span>
             </div>
@@ -74,6 +75,7 @@ export default function Home() {
                 width={450}
                 height={450}
                 className="rounded-2xl shadow-2xl w-full max-w-sm sm:max-w-md md:max-w-lg mx-auto"
+                sizes="(max-width: 640px) 320px, (max-width: 768px) 384px, 512px"
                 priority
               />
             </div>
@@ -101,6 +103,7 @@ export default function Home() {
                     width={300}
                     height={300}
                     className="rounded-lg mx-auto w-full max-w-[200px] sm:max-w-[300px]"
+                    sizes="(max-width: 640px) 200px, 300px"
                   />
                 </div>
                 <div className="flex justify-center mb-2 sm:mb-3">
@@ -120,6 +123,7 @@ export default function Home() {
                     width={300}
                     height={300}
                     className="rounded-lg mx-auto w-full max-w-[200px] sm:max-w-[300px]"
+                    sizes="(max-width: 640px) 200px, 300px"
                   />
                 </div>
                 <div className="flex justify-center mb-2 sm:mb-3">
@@ -139,6 +143,7 @@ export default function Home() {
                     width={300}
                     height={300}
                     className="rounded-lg mx-auto w-full max-w-[200px] sm:max-w-[300px]"
+                    sizes="(max-width: 640px) 200px, 300px"
                   />
                 </div>
                 <div className="flex justify-center mb-2 sm:mb-3">
@@ -163,6 +168,7 @@ export default function Home() {
                 width={400}
                 height={400}
                 className="rounded-2xl mx-auto shadow-lg w-full max-w-xs sm:max-w-sm md:max-w-md"
+                sizes="(max-width: 475px) 280px, (max-width: 640px) 320px, (max-width: 768px) 384px, 448px"
               />
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-amber-900 mb-3 sm:mb-4">Aceite de Almendras</h2>
@@ -185,6 +191,7 @@ export default function Home() {
                   width={500}
                   height={400}
                   className="rounded-lg mb-4 sm:mb-6 w-full"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
                 <div className="space-y-3 sm:space-y-4">
                   <div className="flex items-start">
@@ -231,6 +238,7 @@ export default function Home() {
                   width={500}
                   height={400}
                   className="rounded-lg mb-4 sm:mb-6 w-full"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
                 <div className="space-y-3 sm:space-y-4">
                   <div className="flex items-start">
@@ -297,6 +305,7 @@ export default function Home() {
                 width={32}
                 height={32}
                 className="rounded-full sm:w-[40px] sm:h-[40px]"
+                sizes="(max-width: 640px) 32px, 40px"
               />
               <span className="text-base sm:text-lg font-semibold">Doble V Almendras</span>
             </div>
